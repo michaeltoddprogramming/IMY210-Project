@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Michael Todd u23540223 -->
+<?xml-stylesheet type="text/xsl" href="stylesheet.sxl" ?>
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validate.xsd">
+    <information id="2">
+        <name>Jane's textbooks</name>
+        <description>Jane's textbooks is a small store that sells textbooks.</description>
+        <owner userId="44">Jane Doe</owner>
+    </information>
+    <products>
+        <product id="janes-textbooks-1" language="en" edition="1st">
+            <title>Introduction to Python</title>
+            <author>John Doe</author>
+            <isbn>978-0-13-518276-4</isbn>
+            <sku>PYTHON-INTRO-1</sku>
+            <description>Introduction to Python is a book that teaches you how to use Python.</description>
+            <price currency="ZAR">200.00</price>
+            <department>Computer Science</department>
+            <modules>
+                <module id="imy310" name="IMY 310" />
+            </modules>
+            <availability>in stock</availability>
+            <condition>new</condition>
+            <image>./images/python-books1.png</image>
+        </product>
+        <product id="janes-textbooks-2" language="en" edition="2nd">
+            <title>React with Jane</title>
+            <author>Jane Doe</author>
+            <isbn>978-0-13-518269-4</isbn>
+            <sku>REACT-JANE-1</sku>
+            <description>React with Jane is a book that teaches you how to use React.</description>
+            <price currency="ZAR">350.00</price>
+            <department>Computer Science</department>
+            <modules>
+                <module id="imy320" name="IMY 320" />
+                <module id="cos316" name="COS 316" />
+            </modules>
+            <availability>coming soon</availability>
+            <condition>new</condition>
+            <image>./images/react-books1.png</image>
+        </product>
+    </products>
+</store>

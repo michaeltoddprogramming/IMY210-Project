@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Michael Todd u23540223 -->
+<?xml-stylesheet type="text/xsl" href="stylesheet.sxl" ?>
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validate.xsd">
+    <information id="1">
+        <name>John's textbooks</name>
+        <description>John's textbooks is a small store that sells textbooks.</description>
+        <owner userId="43">John Doe</owner>
+    </information>
+    <products>
+        <product id="johns-textbooks-2" language="en" edition="3rd">
+            <title>Introduction to XML</title>
+            <author>Yan Wong</author>
+            <isbn>978-0-13-518276-3</isbn>
+            <sku>XML-INTRO-1</sku>
+            <description>Introduction to XML is a book that teaches you how to use XML.</description>
+            <price currency="ZAR">250.00</price>
+            <department>Multimedia</department>
+            <modules>
+                <module id="imy210" name="IMY 210" />
+            </modules>
+            <availability>in stock</availability>
+            <condition>slighly used</condition>
+            <image>./images/xml-books1.png</image>
+        </product>
+        <product id="johns-textbooks-3" language="en" edition="1st">
+            <title>Vue with Michael</title>
+            <author>Michael Tarr</author>
+            <isbn>978-0-13-518269-3</isbn>
+            <sku>VUE-MICHAEL-1</sku>
+            <description>Vue with Michael is a book that teaches you how to use Vue.</description>
+            <price currency="ZAR">300.00</price>
+            <department>Computer Science</department>
+            <modules>
+                <module id="imy220" name="IMY 220" />
+                <module id="cos216" name="COS 216" />
+            </modules>
+            <availability>coming soon</availability>
+            <condition>new</condition>
+            <image>./images/vue-books1.png</image>
+        </product>
+    </products>
+ </store>
