@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- Michael Todd u23540223 -->
 <?xml-stylesheet type="text/xsl" href="stylesheet.sxl" ?>
-<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validate.xsd">
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../validate.xsd">
     <information id="1">
         <name>John's textbooks</name>
         <description>John's textbooks is a small store that sells textbooks.</description>

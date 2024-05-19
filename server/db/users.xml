@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <users>
   <user>
-    <name>Michael</name>
-    <surname>Todd</surname>
-    <email>test@gmail.com</email>
+    <userId>22ac010f-fbd3-4cb3-9584-60bdc517efd1</userId>
+    <email>cait@gmail.com</email>
     <password>Michael53816!@</password>
+    <name>Caitlan</name>
+    <surname>van Dyk</surname>
+    <storeOwner>true</storeOwner>
   </user>
   <user>
-    <email>michaeltodd@gmail.com</email>
+    <userId>5f8a6247-d48e-40de-9942-b8c8cc61ade3</userId>
+    <email>admin@gmail.com</email>
+    <password>Michael53816!@</password>
+    <name>Super</name>
+    <surname>User</surname>
+    <storeOwner>true</storeOwner>
+  </user>
+  <user>
+    <userId>87bf1cc8-ae2f-4f64-8bbb-15708087c565</userId>
+    <email>idk@gmail.com</email>
     <password>Michael53816!@</password>
     <name>Michael</name>
-    <surname>Todd</surname>
+    <surname>Soap</surname>
+    <storeOwner>true</storeOwner>
+  </user>
+  <user>
+    <userId>cd912fee-1249-407b-a5d8-c189adae5bc3</userId>
+    <email>idkdjdkdkdddddd@gmail.com</email>
+    <password>Michael53816!@</password>
+    <name>Michael</name>
+    <surname>SoapV2 No CAP</surname>
+    <storeOwner>false</storeOwner>
+  </user>
+  <user>
+    <userId>959e62e9-0640-40c7-ad12-5c86ac9b7c6b</userId>
+    <email>idkdjdkdkdddddddqadqwd@gmail.com</email>
+    <password>Michael53816!@</password>
+    <name>Michael</name>
+    <surname>SoapV2 No CAP</surname>
+    <storeOwner>false</storeOwner>
   </user>
 </users>

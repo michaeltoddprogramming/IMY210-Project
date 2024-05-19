@@ -1,3 +1,5 @@
+<!-- Michael Todd u23540223 -->
+
 <template>
   <div class="container">
     <h1 class="display-4 text-center my-5">Stores</h1>
@@ -27,6 +29,7 @@
                 <p>Availability: {{ product.availability[0] }}</p>
                 <p>Condition: {{ product.condition[0] }}</p>
                 <img :src="product.image[0]" alt="Product image" class="img-fluid">
+                <button @click="addToCart(product.$.id)" class="btn btn-primary">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -38,6 +41,7 @@
 
 <script>
 import { ref, onMounted } from 'vue'
+import axios from 'axios'
 
 export default {
   setup() {
@@ -69,9 +73,23 @@ export default {
       }
     }
 
+    async function addToCart(productId) {
+      try {
+        const userId = '22ac010f-fbd3-4cb3-9584-60bdc517efd1'
+        const response = await axios.post(`http://localhost:3002/add-to-cart/${productId}`, { userId })
+        if (response.status === 200) {
+          success.value = 'Product added to cart successfully'
+        } else {
+          error.value = 'Failed to add product to cart'
+        }
+      } catch (err) {
+        error.value = err.message
+      }
+    }
+
     onMounted(fetchStores)
 
-    return { stores, error, success, activeIndex, toggle }
+    return { stores, error, success, activeIndex, toggle, addToCart }
   }
 }
 </script>

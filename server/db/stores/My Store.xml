@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<store>
+  <information id="3">
+    <name>My Store</name>
+    <description>This is my store</description>
+    <owner userId="123">John Doe</owner>
+  </information>
+  <products>
+    <product id="p1" language="English" edition="First"/>
+  </products>
+</store>

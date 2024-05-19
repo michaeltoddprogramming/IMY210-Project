@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<store>
+  <information id="feccd285-bc37-44d0-bec0-e00257260f2e">
+    <name>John's Textbooks</name>
+    <description>John's Textbooks is a small store that sells textbooks.</description>
+  </information>
+  <products>
+    <product id="ff7c6b66-0129-4280-97fb-8b82ce601850" language="English" edition="1st">
+      <title>I just updated you AGAIN</title>
+      <author>Thomas H. Cormen</author>
+      <isbn>978-0262033848</isbn>
+      <sku>PRODUCT-0</sku>
+      <description>This is a new description for the book.</description>
+      <price>120.00</price>
+      <department>Books</department>
+      <modules>
+        <module id="1" name="Module 1"/>
+        <module id="2" name="Module 2"/>
+      </modules>
+      <availability>In stock</availability>
+      <condition>New</condition>
+      <image>https://example.com/image.jpg</image>
+    </product>
+    <product id="6aab96da-f77b-4f05-96e9-22496c2ce08b" language="English" edition="1st">
+      <title>Introduction to Algorithms</title>
+      <author>Thomas H. Cormen</author>
+      <isbn>978-0262033848</isbn>
+      <sku>PRODUCT-1</sku>
+      <description>The latest edition of the essential text and professional reference, with substantial new material on such topics as vEB trees, multithreaded algorithms, dynamic programming, and edge-based flow.</description>
+      <price currency="USD">100.00</price>
+      <department>Books</department>
+      <modules>
+        <module id="1" name="Module 1"/>
+        <module id="2" name="Module 2"/>
+      </modules>
+      <availability>In stock</availability>
+      <condition>New</condition>
+      <image>https://example.com/image.jpg</image>
+    </product>
+    <product id="170293f8-b007-44f1-8997-bea02106939f" language="English" edition="1st">
+      <title>Introduction to Algorithms</title>
+      <author>Thomas H. Cormen</author>
+      <isbn>978-0262033848</isbn>
+      <sku>PRODUCT-0</sku>
+      <description>The latest edition of the essential text and professional reference, with substantial new material on such topics as vEB trees, multithreaded algorithms, dynamic programming, and edge-based flow.</description>
+      <price currency="USD">100.00</price>
+      <department>Books</department>
+      <modules>
+        <module id="1" name="Module 1"/>
+        <module id="2" name="Module 2"/>
+      </modules>
+      <availability>In stock</availability>
+      <condition>New</condition>
+      <image>https://example.com/image.jpg</image>
+    </product>
+    <product id="285b6769-37c4-4edc-98ce-61f43009306c" language="English" edition="1st">
+      <title>Introduction to Algorithms</title>
+      <author>Thomas H. Cormen</author>
+      <isbn>978-0262033848</isbn>
+      <sku>PRODUCT-1</sku>
+      <description>The latest edition of the essential text and professional reference, with substantial new material on such topics as vEB trees, multithreaded algorithms, dynamic programming, and edge-based flow.</description>
+      <price currency="USD">100.00</price>
+      <department>Books</department>
+      <modules>
+        <module id="1" name="Module 1"/>
+        <module id="2" name="Module 2"/>
+      </modules>
+      <availability>In stock</availability>
+      <condition>New</condition>
+      <image>https://example.com/image.jpg</image>
+    </product>
+    <product id="40b612d8-91ae-4edd-ac55-285b95457955" language="English" edition="1st">
+      <title>Introduction to Algorithms</title>
+      <author>Thomas H. Cormen</author>
+      <isbn>978-0262033848</isbn>
+      <sku>PRODUCT-2</sku>
+      <description>The latest edition of the essential text and professional reference, with substantial new material on such topics as vEB trees, multithreaded algorithms, dynamic programming, and edge-based flow.</description>
+      <price currency="USD">100.00</price>
+      <department>Books</department>
+      <modules>
+        <module id="1" name="Module 1"/>
+        <module id="2" name="Module 2"/>
+      </modules>
+      <availability>In stock</availability>
+      <condition>New</condition>
+      <image>https://example.com/image.jpg</image>
+    </product>
+    <product id="4bf1feee-1efd-49ea-bfa9-2133ab92927a" language="English" edition="1st">
+      <title>Introduction to Algorithms</title>
+      <author>Thomas H. Cormen</author>
+      <isbn>978-0262033848</isbn>
+      <sku>PRODUCT-0</sku>
+      <description>The latest edition of the essential text and professional reference, with substantial new material on such topics as vEB trees, multithreaded algorithms, dynamic programming, and edge-based flow.</description>
+      <price currency="USD">100.00</price>
+      <department>Books</department>
+      <modules>
+        <module id="1" name="Module 1"/>
+        <module id="2" name="Module 2"/>
+      </modules>
+      <availability>In stock</availability>
+      <condition>New</condition>
+      <image>https://example.com/image.jpg</image>
+    </product>
+  </products>
+</store>

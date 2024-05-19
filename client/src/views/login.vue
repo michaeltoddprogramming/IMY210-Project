@@ -1,3 +1,5 @@
+<!-- Michael Todd u23540223 -->
+
 <template>
   <div>
     <h2>Login</h2>
@@ -22,23 +24,27 @@ export default {
   data() {
     return {
       email: '',
-      password: ''
+      password: '',
+      errorMessage: ''
     }
   },
   methods: {
     login() {
-      axios.post('http://localhost:3002/login', { email: this.email, password: this.password })
-        .then(response => {
-          if (response.data.success) {
-            this.$router.push('/home');
-          } else {
-            alert('Invalid credentials');
-          }
-        })
-        .catch(error => {
-          console.error(error);
-          alert('An error occurred');
-        });
+      axios.post('http://localhost:3002/login', {
+        email: this.email,
+        password: this.password
+      })
+      .then(response => {
+        if (response.data.success) {
+          localStorage.setItem('userId', response.data.userId);
+          this.$router.push('/home');
+        } else {
+          this.errorMessage = 'Login failed. Please try again.';
+        }
+      })
+      .catch(error => {
+        this.errorMessage = 'An error occurred. Please try again.';
+      });
     }
   }
 }
